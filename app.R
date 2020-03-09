@@ -65,6 +65,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 # runApp("app.R")
+# Line to turn in on Canvas: runGitHub("census-app", "aelert2")
 
 
 # server <- function(input, output) {
