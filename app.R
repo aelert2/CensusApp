@@ -63,16 +63,3 @@ server <- function(input, output) {
 
 # Run app ----
 shinyApp(ui = ui, server = server)
-
-# runApp("app.R")
-# Line to turn in on Canvas: runGitHub("census-app", "aelert2")
-
-
-# server <- function(input, output) {
-#   
-#   output$selected_var <- renderText({ 
-#     paste0("You have selected ", input$var, ". You have choosen a range from ", input$range[1], " to ", input$range[2], ".")
-#     #paste("You have choosen a range from", input$range[1], "to", input$range[2])
-#   })
-#   
-# }
